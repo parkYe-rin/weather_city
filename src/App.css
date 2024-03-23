@@ -1,0 +1,52 @@
+body {
+  background: url(https://fox5sandiego.com/wp-content/uploads/sites/15/2023/06/AdobeStock_284753210-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100vh;
+  border: 3px solid white;
+  border-radius: 10%;
+  background-color: rgba(128, 128, 128, 0.588);
+  color: rgb(79, 78, 78);
+  font: bold 1.1em sans-serif;
+}
+
+.btn {
+  margin: 1em;
+  width: 7em;
+  height: 3em;
+  border: 3px solid white;
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.381);
+  color: rgb(106, 106, 106);
+  font: bold 1.1em sans-serif;
+  cursor: pointer;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: bold 1.1em sans-serif;
+}
+
+.weather-box div {
+  margin: 0.7em;
+}
+
+.city-name {
+  font-size: 1.4em;
+}
