@@ -18,7 +18,7 @@ body {
   width: 100vh;
   border: 3px solid white;
   border-radius: 10%;
-  background-color: rgba(128, 128, 128, 0.588);
+  background-color: rgba(184, 184, 184, 0.588);
   color: rgb(79, 78, 78);
   font: bold 1.1em sans-serif;
 }
@@ -29,10 +29,24 @@ body {
   height: 3em;
   border: 3px solid white;
   border-radius: 10%;
-  background-color: rgba(255, 255, 255, 0.381);
-  color: rgb(106, 106, 106);
   font: bold 1.1em sans-serif;
   cursor: pointer;
+}
+
+.btn:hover {
+  scale: 1.1;
+  color: white;
+  background-color: rgb(106, 106, 106);
+}
+
+.clicked {
+  color: white;
+  background-color: rgb(106, 106, 106);
+}
+
+.unclicked {
+  background-color: rgba(255, 255, 255, 0.381);
+  color: rgb(106, 106, 106);
 }
 
 .weather-box {
@@ -49,4 +63,9 @@ body {
 
 .city-name {
   font-size: 1.4em;
+}
+
+.apiErr {
+  font-size: 1.8em;
+  color: rgba(127, 0, 0, 0.692);
 }
